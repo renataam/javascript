@@ -15,13 +15,13 @@
 <body>
     <h1>Nacionalidade</h1>
     Digite sua nacionalidade aqui: <input type="text" name="nacio" id="nacio"> e aperte <input type="button" value="enter" onclick="calcular()">
-    <div id = "resultado"></div>
+    <div id = "r"></div>
 
     <script>
         
         function calcular() {
             var n = window.document.getElementById('nacio')
-            var r = window.document.querySelector('div#resultado')
+            var r = window.document.querySelector('div#r')
             var na = (n.value)
             resultado.innerHTML=`<p>sua nacionalidade é ${na}.</p>`
             if (na==brasileiro){
