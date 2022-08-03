@@ -1,5 +1,5 @@
 let num = [8, 5, 4, 6, 3]
-num.push(1) //acrescentou um elemento
+num.push(1) //acrescentou um elemento no final
 num.sort() //colocou em ordem crescente
 console.log(`o vetor tem ${num.length} posições`)
 console.log(`a primeiro valor do vetor é ${num[0]}`)
